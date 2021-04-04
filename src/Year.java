@@ -10,15 +10,15 @@ public class Year {
         if(year % 4 == 0){
             if( year % 100 == 0){
                 if(year % 400 == 0){
-                    System.out.println(year + "%d is a leap year");
+                    System.out.println("%d is a leap year" + year);
                 }else {
-                    System.out.println(year + "%d is not a leap year");
+                    System.out.println( "%d is not a leap year" + year );
                 }
             } else {
-                System.out.println(year + "%d is a leap year");
+                System.out.println("%d is a leap year" +  year );
             }
         } else {
-            System.out.println(year + "%d is not a leap year");
+            System.out.println("%d is not a leap year" + year);
         }
     }
 }
